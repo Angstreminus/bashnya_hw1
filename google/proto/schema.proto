@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "./";
+
+package proto;
+
+message Mess {
+    string str=1;
+}
+
+
